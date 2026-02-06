@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DemoGoingFaster</string>
+    <string name="mean">Mean:</string>
+    <string name="notused">Not Used</string>
+    <string name="timeunit">ms</string>
+    <string name="rgb">RGB</string>
+    <string name="greyButton">Grey scale</string>
+    <string name="convolution">Convolution</string>
+    <string name="parallelrgb">RGB Par</string>
+    <string name="parallel">parallel</string>
+    <string name="natv">native</string>
+    <string name="omp">OMP</string>
+    <string name="neon">NEON</string>
+</resources>

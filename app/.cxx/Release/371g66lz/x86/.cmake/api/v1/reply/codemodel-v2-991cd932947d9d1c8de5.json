@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "processimg",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "processimg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-processimg-Release-96ed9759414d464bea06.json",
+					"name" : "processimg",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86",
+		"source" : "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

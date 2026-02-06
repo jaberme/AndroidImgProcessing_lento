@@ -1,0 +1,20 @@
+                        -H/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/home/hunter/Android/Sdk/ndk/29.0.14206865
+-DCMAKE_ANDROID_NDK=/home/hunter/Android/Sdk/ndk/29.0.14206865
+-DCMAKE_TOOLCHAIN_FILE=/home/hunter/Android/Sdk/ndk/29.0.14206865/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++11 -O3 -flax-vector-conversions
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/build/intermediates/cxx/Release/371g66lz/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/build/intermediates/cxx/Release/371g66lz/obj/x86
+-B/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86
+-GNinja
+-DANDROID_ARM_MODE=arm
+-DCMAKE_BUILD_TYPE=Release
+                        Build command args: []
+                        Version: 2

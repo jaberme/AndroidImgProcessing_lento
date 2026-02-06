@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/6d4pe471/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/6d4pe471/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "processimg::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "processimg",
+      "output": "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/build/intermediates/cxx/Release/6d4pe471/obj/armeabi-v7a/libprocessimg.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

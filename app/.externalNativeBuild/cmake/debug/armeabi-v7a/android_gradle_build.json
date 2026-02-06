@@ -1,0 +1,47 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"processimg-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "processimg",
+			"buildCommand" : "/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target processimg",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --sysroot=/Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot  -Dprocessimg_EXPORTS -isystem /Users/asenjo/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/asenjo/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/asenjo/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -marm -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fopenmp -O3 -mfloat-abi=softfp -mfpu=neon -flax-vector-conversions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/src/main/cpp/processimg.cpp",
+					"workingDirectory" : "/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot  -Dprocessimg_EXPORTS -isystem /Users/asenjo/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/asenjo/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/asenjo/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -marm -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fopenmp -O3 -mfloat-abi=softfp -mfpu=neon -flax-vector-conversions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/src/main/cpp/processimg_neon.cpp",
+					"workingDirectory" : "/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libprocessimg.so",
+			"toolchain" : "9731497309381291088"
+		}
+	},
+	"toolchains" : 
+	{
+		"9731497309381291088" : 
+		{
+			"cCompilerExecutable" : "/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc",
+			"cppCompilerExecutable" : "/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++"
+		}
+	}
+}

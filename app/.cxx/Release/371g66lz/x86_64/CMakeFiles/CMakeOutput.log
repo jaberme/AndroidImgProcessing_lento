@@ -1,0 +1,474 @@
+The target system is: Android - 1 - x86_64
+The host system is: Linux - 6.14.0-1020-oem - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;
+Id flags: -c;--target=x86_64-none-linux-android21 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;-std=c++11;-O3;-flax-vector-conversions
+Id flags: -c;--target=x86_64-none-linux-android21 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_a25fa && [1/2] Building C object CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin
+ (in-process)
+ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21 -dependency-file CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o -x c /home/hunter/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_a25fa
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin
+ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_a25fa /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include]
+    add: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+    add: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include]
+  collapse include dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  collapse include dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  implicit include dirs: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_a25fa && [1/2] Building C object CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (13989888  +pgo  +bolt  +lto  +mlgo  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21 -dependency-file CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o -x c /home/hunter/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_a25fa]
+  ignore line: [Android (13989888  +pgo  +bolt  +lto  +mlgo  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  link line: [ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_a25fa /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=16384] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a25fa] ==> ignore
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> obj [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_a25fa.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> obj [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+  remove lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  remove lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+  implicit dirs: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_dfbfd && [1/2] Building CXX object CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin
+ (in-process)
+ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21 -dependency-file CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -O3 -Wformat -std=c++11 -fdeprecated-macro -ferror-limit 19 -femulated-tls -flax-vector-conversions=integer -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/hunter/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_dfbfd
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin
+ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_dfbfd /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+    add: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include]
+    add: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+    add: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include]
+  collapse include dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  collapse include dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  implicit include dirs: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_dfbfd && [1/2] Building CXX object CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (13989888  +pgo  +bolt  +lto  +mlgo  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21 -dependency-file CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -O3 -Wformat -std=c++11 -fdeprecated-macro -ferror-limit 19 -femulated-tls -flax-vector-conversions=integer -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/hunter/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_dfbfd]
+  ignore line: [Android (13989888  +pgo  +bolt  +lto  +mlgo  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  link line: [ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_dfbfd /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=16384] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_dfbfd] ==> ignore
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> obj [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_dfbfd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> obj [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+  remove lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  remove lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+  implicit dirs: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_97885 && [1/2] Building C object CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin
+ (in-process)
+ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21 -dependency-file CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -Werror=format-security -ferror-limit 19 -femulated-tls -fopenmp -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o -x c /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_97885
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin
+ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_97885 /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o -latomic -lm -lomp -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_97885 && [1/2] Building C object CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o]
+  ignore line: [Android (13989888  +pgo  +bolt  +lto  +mlgo  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21 -dependency-file CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -Werror=format-security -ferror-limit 19 -femulated-tls -fopenmp -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o -x c /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_97885]
+  ignore line: [Android (13989888  +pgo  +bolt  +lto  +mlgo  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  link line: [ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_97885 /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o -latomic -lm -lomp -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=16384] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_97885] ==> ignore
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_97885.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-latomic] ==> lib [atomic]
+    arg [-lm] ==> lib [m]
+    arg [-lomp] ==> lib [omp]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+  remove lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  remove lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib]
+  implicit libs: [atomic;m;omp;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: []
+  implicit dirs: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_ce452 && [1/2] Building CXX object CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin
+ (in-process)
+ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21 -dependency-file CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -O3 -Wformat -Werror=format-security -std=c++11 -fdeprecated-macro -ferror-limit 19 -femulated-tls -fopenmp -flax-vector-conversions=integer -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o -x c++ /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android
+ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_ce452
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin
+ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_ce452 /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm -lomp -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_ce452 && [1/2] Building CXX object CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [Android (13989888  +pgo  +bolt  +lto  +mlgo  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/CMakeTmp -resource-dir /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21 -dependency-file CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include -internal-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -O3 -Wformat -Werror=format-security -std=c++11 -fdeprecated-macro -ferror-limit 19 -femulated-tls -fopenmp -flax-vector-conversions=integer -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o -x c++ /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86_64/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_ce452]
+  ignore line: [Android (13989888  +pgo  +bolt  +lto  +mlgo  based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  link line: [ "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_ce452 /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm -lomp -L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=16384] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ce452] ==> ignore
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_ce452.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-latomic] ==> lib [atomic]
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> search static
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [-lomp] ==> lib [omp]
+    arg [-L/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib] ==> dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+  remove lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  remove lib [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  collapse library dir [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib] ==> [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib]
+  implicit libs: [atomic;m;c++;m;omp;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: []
+  implicit dirs: [/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/linux/x86_64;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib;/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib]
+  implicit fwks: []
+
+

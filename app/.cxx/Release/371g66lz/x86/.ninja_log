@@ -1,0 +1,12 @@
+# ninja log v5
+0	27	1770354573189534978	CMakeFiles/processimg.dir/src/main/cpp/processimg_neon.cpp.o	b97ccbbb0fab0061
+336	355	1770354573516535090	../../../../build/intermediates/cxx/Release/371g66lz/obj/x86/libprocessimg.so	7e66c5d3839f677d
+0	2	0	clean	bd17d29836e984d2
+0	335	1770354573493535082	CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o	8c950e2e3ab628e0
+2	27	1770354912082959256	CMakeFiles/processimg.dir/src/main/cpp/processimg_neon.cpp.o	d09c5a4d2cfea489
+1	342	1770354912394959875	CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o	a876644ae32dac9e
+342	358	1770354912414635171	../../../../build/intermediates/cxx/Release/371g66lz/obj/x86/libprocessimg.so	ecc25c68f9aaa8d0
+3	49	1770355103121393385	CMakeFiles/processimg.dir/src/main/cpp/processimg_neon.cpp.o	d09c5a4d2cfea489
+49	83	1770355103152393463	../../../../build/intermediates/cxx/Release/371g66lz/obj/x86/libprocessimg.so	ecc25c68f9aaa8d0
+0	2	0	clean	bd17d29836e984d2
+0	1	0	clean	bd17d29836e984d2

@@ -1,0 +1,3 @@
+/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/5x5j4b5b/armeabi-v7a/CMakeFiles/processimg.dir
+/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/5x5j4b5b/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/5x5j4b5b/armeabi-v7a/CMakeFiles/rebuild_cache.dir

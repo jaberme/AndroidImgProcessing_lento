@@ -1,0 +1,20 @@
+                        -H/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=armeabi-v7a
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DANDROID_NDK=/home/hunter/Android/Sdk/ndk/29.0.14206865
+-DCMAKE_ANDROID_NDK=/home/hunter/Android/Sdk/ndk/29.0.14206865
+-DCMAKE_TOOLCHAIN_FILE=/home/hunter/Android/Sdk/ndk/29.0.14206865/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++11 -fopenmp -O3 -mfloat-abi=softfp -mfpu=neon -flax-vector-conversions
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/build/intermediates/cxx/Release/6d4pe471/obj/armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/build/intermediates/cxx/Release/6d4pe471/obj/armeabi-v7a
+-B/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/6d4pe471/armeabi-v7a
+-GNinja
+-DANDROID_ARM_MODE=arm
+-DCMAKE_BUILD_TYPE=Release
+                        Build command args: []
+                        Version: 2

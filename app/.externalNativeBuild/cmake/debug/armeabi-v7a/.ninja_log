@@ -1,0 +1,16 @@
+# ninja log v5
+0	462	0	CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o	bf62e73ce747e50d
+0	600	0	CMakeFiles/processimg.dir/src/main/cpp/processimg_neon.cpp.o	2500b8ebb17889b1
+600	689	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libprocessimg.so	f4edad27f61971fb
+1	412	0	CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o	bf62e73ce747e50d
+412	501	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libprocessimg.so	f4edad27f61971fb
+0	496	0	CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o	bf62e73ce747e50d
+496	592	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libprocessimg.so	f4edad27f61971fb
+1	356	0	CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o	bf62e73ce747e50d
+356	410	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libprocessimg.so	f4edad27f61971fb
+0	383	0	CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o	bf62e73ce747e50d
+383	447	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libprocessimg.so	f4edad27f61971fb
+1	363	0	CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o	bf62e73ce747e50d
+363	413	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libprocessimg.so	f4edad27f61971fb
+0	444	0	CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o	bf62e73ce747e50d
+444	536	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libprocessimg.so	f4edad27f61971fb

@@ -1,0 +1,52 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc 
+Build flags: -isystem;/Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android;-D__ANDROID_API__=19;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-Wa,--noexecstack;-Wformat;-Werror=format-security;
+Id flags: 
+
+The output was:
+1
+/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: error: cannot open crtbegin_dynamic.o: No such file or directory
+/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: error: cannot open crtend_android.o: No such file or directory
+/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: error: cannot find -lc
+/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ 
+Build flags: -isystem;/Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android;-D__ANDROID_API__=19;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-Wa,--noexecstack;-Wformat;-Werror=format-security;;-std=c++11;-fopenmp;-O3;-mfloat-abi=softfp;-mfpu=neon;-flax-vector-conversions
+Id flags: 
+
+The output was:
+1
+i686-linux-android-g++: error: unrecognized command line option '-mfloat-abi=softfp'
+i686-linux-android-g++: error: unrecognized command line option '-mfpu=neon'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ 
+Build flags: -isystem;/Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android;-D__ANDROID_API__=19;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-Wa,--noexecstack;-Wformat;-Werror=format-security;;-std=c++11;-fopenmp;-O3;-mfloat-abi=softfp;-mfpu=neon;-flax-vector-conversions
+Id flags: -c
+
+The output was:
+1
+i686-linux-android-g++: error: unrecognized command line option '-mfloat-abi=softfp'
+i686-linux-android-g++: error: unrecognized command line option '-mfpu=neon'
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+i686-linux-android-g++: error: unrecognized command line option '-mfloat-abi=softfp'
+i686-linux-android-g++: error: unrecognized command line option '-mfpu=neon'
+i686-linux-android-g++: fatal error: no input files
+compilation terminated.
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_62275"
+[1/2] Building CXX object CMakeFiles/cmTC_62275.dir/testCXXCompiler.cxx.o
+FAILED: /Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-g++    -I/Users/asenjo/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -I/Users/asenjo/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -I/Users/asenjo/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fopenmp -O3 -mfloat-abi=softfp -mfpu=neon -flax-vector-conversions -o CMakeFiles/cmTC_62275.dir/testCXXCompiler.cxx.o -c /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+i686-linux-android-g++: error: unrecognized command line option '-mfloat-abi=softfp'
+i686-linux-android-g++: error: unrecognized command line option '-mfpu=neon'
+ninja: build stopped: subcommand failed.
+
+

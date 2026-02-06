@@ -1,0 +1,158 @@
+The target system is: Android - 1 - i686
+The host system is: Darwin - 17.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc 
+Build flags: -isystem;/Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android;-D__ANDROID_API__=19;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-Wa,--noexecstack;-Wformat;-Werror=format-security;
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CompilerIdC/CMakeCCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_74689"
+[1/2] Building C object CMakeFiles/cmTC_74689.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_74689
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_e3c69"
+[1/2] Building C object CMakeFiles/cmTC_e3c69.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_e3c69
+Using built-in specs.
+COLLECT_GCC=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc
+COLLECT_LTO_WRAPPER=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper
+Target: i686-linux-android
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/f421836e511e63ff64f43553a850bb2b --target=i686-linux-android --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-arch=i686 --with-tune=intel --with-fpmath=sse --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/f421836e511e63ff64f43553a850bb2b --with-sysroot=/tmp/f421836e511e63ff64f43553a850bb2b/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/f421836e511e63ff64f43553a850bb2b/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libcilkrts --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&i686-linux-android-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/:/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/
+LIBRARY_PATH=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/:/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/:/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=19' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_e3c69' '-mtune=intel' '-march=i686'
+ /Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2 -plugin /Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/3m/wbwr7b111j5gzwwf_cf38xwc0000gn/T//cc54xS7H.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_e3c69 /Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -L/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_e3c69.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_e3c69"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_e3c69.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_e3c69]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper]
+  ignore line: [Target: i686-linux-android]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/f421836e511e63ff64f43553a850bb2b --target=i686-linux-android --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-arch=i686 --with-tune=intel --with-fpmath=sse --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/f421836e511e63ff64f43553a850bb2b --with-sysroot=/tmp/f421836e511e63ff64f43553a850bb2b/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/f421836e511e63ff64f43553a850bb2b/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libcilkrts --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&i686-linux-android-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/:/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/]
+  ignore line: [LIBRARY_PATH=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/:/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/:/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/Users/asenjo/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android' '-D' '__ANDROID_API__=19' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-mstackrealign' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_e3c69' '-mtune=intel' '-march=i686']
+  link line: [ /Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2 -plugin /Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/3m/wbwr7b111j5gzwwf_cf38xwc0000gn/T//cc54xS7H.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_e3c69 /Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib/crtbegin_dynamic.o -L/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -L/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_e3c69.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib/crtend_android.o]
+    arg [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/3m/wbwr7b111j5gzwwf_cf38xwc0000gn/T//cc54xS7H.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e3c69] ==> ignore
+    arg [/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x] ==> dir [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x]
+    arg [-L/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> dir [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc]
+    arg [-L/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-L/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib] ==> dir [/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_e3c69.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x] ==> [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc]
+  collapse library dir [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/i686-linux-android/lib]
+  collapse library dir [/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib] ==> [/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib]
+  implicit libs: [c;dl]
+  implicit dirs: [/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x;/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/lib/gcc;/Users/asenjo/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64/i686-linux-android/lib;/Users/asenjo/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_0a887"
+[1/2] Building C object CMakeFiles/cmTC_0a887.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_0a887
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_51573"
+[1/2] Building C object CMakeFiles/cmTC_51573.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_51573
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_da96f"
+[1/2] Building C object CMakeFiles/cmTC_da96f.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_da96f
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

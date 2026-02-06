@@ -1,0 +1,18 @@
+Executable : /Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app
+-B/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/.externalNativeBuild/cmake/release/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-19
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/asenjo/Desktop/AndroidAlmeria/DemoGoingFasterCPP/app/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/asenjo/Library/Android/sdk/ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++11 -fopenmp -O3 -mfloat-abi=softfp -mfpu=neon -flax-vector-conversions
+-DCMAKE_TOOLCHAIN_FILE=/Users/asenjo/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/asenjo/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_TOOLCHAIN=gcc
+-DANDROID_ARM_MODE=arm
+-DCMAKE_BUILD_TYPE=Release
+jvmArgs : 
+

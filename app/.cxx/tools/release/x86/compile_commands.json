@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86",
+  "command": "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dprocessimg_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -O3 -flax-vector-conversions -O3 -DNDEBUG  -fPIC -fopenmp=libomp -o CMakeFiles/processimg.dir/src/main/cpp/processimg.cpp.o -c /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/src/main/cpp/processimg.cpp",
+  "file": "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/src/main/cpp/processimg.cpp"
+},
+{
+  "directory": "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/371g66lz/x86",
+  "command": "/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dprocessimg_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -O3 -flax-vector-conversions -O3 -DNDEBUG  -fPIC -fopenmp=libomp -o CMakeFiles/processimg.dir/src/main/cpp/processimg_neon.cpp.o -c /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/src/main/cpp/processimg_neon.cpp",
+  "file": "/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/src/main/cpp/processimg_neon.cpp"
+}
+]

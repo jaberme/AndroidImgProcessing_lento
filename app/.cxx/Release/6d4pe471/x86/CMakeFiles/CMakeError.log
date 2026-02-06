@@ -1,0 +1,108 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;-std=c++11;-fopenmp;-O3;-mfloat-abi=softfp;-mfpu=neon;-flax-vector-conversions
+Id flags: -c;--target=i686-none-linux-android21 
+
+The output was:
+1
+clang++: error: unsupported option '-mfloat-abi=' for target 'i686-none-linux-android21'
+clang++: error: unsupported option '-mfpu=' for target 'i686-none-linux-android21'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;-std=c++11;-fopenmp;-O3;-mfloat-abi=softfp;-mfpu=neon;-flax-vector-conversions
+Id flags:  
+
+The output was:
+1
+clang++: error: unsupported option '-mfloat-abi=' for target 'x86_64-unknown-linux-gnu'
+clang++: error: unsupported option '-mfpu=' for target 'x86_64-unknown-linux-gnu'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;-std=c++11;-fopenmp;-O3;-mfloat-abi=softfp;-mfpu=neon;-flax-vector-conversions
+Id flags: -c 
+
+The output was:
+1
+clang++: error: unsupported option '-mfloat-abi=' for target 'x86_64-unknown-linux-gnu'
+clang++: error: unsupported option '-mfpu=' for target 'x86_64-unknown-linux-gnu'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;-std=c++11;-fopenmp;-O3;-mfloat-abi=softfp;-mfpu=neon;-flax-vector-conversions
+Id flags: --c++ 
+
+The output was:
+1
+clang++: error: unknown argument: '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;-std=c++11;-fopenmp;-O3;-mfloat-abi=softfp;-mfpu=neon;-flax-vector-conversions
+Id flags: --ec++ 
+
+The output was:
+1
+clang++: error: unknown argument: '--ec++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;-std=c++11;-fopenmp;-O3;-mfloat-abi=softfp;-mfpu=neon;-flax-vector-conversions
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+ld.lld: error: cannot open crt0.o: No such file or directory
+ld.lld: error: unable to find library -lc++
+ld.lld: error: unable to find library -lm
+ld.lld: error: cannot open /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/lib/arm-arm-none-eabi/libclang_rt.builtins.a: No such file or directory
+ld.lld: error: unable to find library -lc
+clang++: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;-std=c++11;-fopenmp;-O3;-mfloat-abi=softfp;-mfpu=neon;-flax-vector-conversions
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+clang++: error: unsupported option '-mfloat-abi=' for target 'x86_64-unknown-linux-gnu'
+clang++: error: unsupported option '-mfpu=' for target 'x86_64-unknown-linux-gnu'
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/6d4pe471/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_75b68 && [1/2] Building CXX object CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o
+FAILED: CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o 
+/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat  -std=c++11 -fopenmp -O3 -mfloat-abi=softfp -mfpu=neon -flax-vector-conversions  -fPIE   -v -MD -MT CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o -c /home/hunter/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Target: i686-none-linux-android21
+Thread model: posix
+InstalledDir: /home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin
+clang++: error: unsupported option '-mfloat-abi=' for target 'i686-none-linux-android21'
+clang++: error: unsupported option '-mfpu=' for target 'i686-none-linux-android21'
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/6d4pe471/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/hunter/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_9c1e4 && [1/2] Building CXX object CMakeFiles/cmTC_9c1e4.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_9c1e4.dir/testCXXCompiler.cxx.o 
+/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/home/hunter/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -fopenmp -O3 -mfloat-abi=softfp -mfpu=neon -flax-vector-conversions  -fPIE -MD -MT CMakeFiles/cmTC_9c1e4.dir/testCXXCompiler.cxx.o -MF CMakeFiles/cmTC_9c1e4.dir/testCXXCompiler.cxx.o.d -o CMakeFiles/cmTC_9c1e4.dir/testCXXCompiler.cxx.o -c /home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/.cxx/Release/6d4pe471/x86/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+clang++: error: unsupported option '-mfloat-abi=' for target 'i686-none-linux-android21'
+clang++: error: unsupported option '-mfpu=' for target 'i686-none-linux-android21'
+ninja: build stopped: subcommand failed.
+
+
+

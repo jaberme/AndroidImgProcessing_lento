@@ -1,0 +1,1 @@
+/home/hunter/Escritorio/PNDM/AppAsenjo/DemoGoingFasterCPP-slow/DemoGoingFasterCPP-slow/app/build/intermediates/cxx/Release/371g66lz/obj/armeabi-v7a
