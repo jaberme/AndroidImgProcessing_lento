@@ -1,4 +1,4 @@
-# DemoGoingFasterCPP
+# Android Image Processing Lento
 
 This Android application is a demonstration of various C++ optimization techniques for image processing tasks. It captures video from the camera and applies different filters and conversions in real time, allowing for a visual comparison of the performance of each method.
 
